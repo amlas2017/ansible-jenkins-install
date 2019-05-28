@@ -1,0 +1,6 @@
+# https://github.com/techgurucloud/Ansible-playbooks.git
+- hosts: server01
+  become: yes
+  roles:
+    - jenkins
+  tags: jenkins
